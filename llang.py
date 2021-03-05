@@ -70,7 +70,7 @@ def tokenize(chars: list) -> list:
             tokens += [chars[i]]
             continue
 
-        # now noly keyword are and separator chars are lefted
+        # now noly keywords and separator chars are lefted
         if chars[i] in separator_chars:
             # empty token is useless, skip it
             if token != "":
