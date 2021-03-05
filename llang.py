@@ -31,7 +31,7 @@ def read(src_file: typing.IO) -> typing:
     l2 = []
     # get rid of comments
     for i in range(len(l1)):
-        if l1[i][0:2] != "//":
+        if str.strip(l1[i])[0:2] != "//":
             l2 += l1[i]
     return l2
 
