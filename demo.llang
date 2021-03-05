@@ -1,0 +1,9 @@
+// stdout is a special varible for standard output
+// let stdout string is used to print message
+let stdout "enter your name:";
+// varible_name:type
+let age:int stdin;
+if (less age 18) (
+	let stdout "You are not allowed to view this content. Please go."
+)
+  // a comment with leading whitespcase
